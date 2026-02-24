@@ -1,0 +1,36 @@
+# Build artifacts
+*.tar.gz
+usu-arcade.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test data (don't commit arcade data directory)
+.arcade-data/
+arcade-data/
+data/
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
